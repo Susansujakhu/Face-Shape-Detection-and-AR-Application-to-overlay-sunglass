@@ -6,14 +6,14 @@ import numpy as np #for mathematical calculations
 import cv2 #for face detection and other image operations
 #import dlib #for detection of facial landmarks ex:nose,jawline,eyes
 
-'''
+
 ap = argparse.ArgumentParser()
 ap.add_argument("-m", "--message", required=True,
     help="name of the user")
 args = vars(ap.parse_args())
 message = format(args["message"])
-'''
-message  = 'Oval/1.png'
+
+#message  = 'Oval/1.png'
 #print(message)
 
 root = Tk()
